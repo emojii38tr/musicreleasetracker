@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <title>Datenschutzerklärung – Music Release Tracker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:#0F1113;color:#ECEFF1;margin:0;padding:24px}
+    a{color:#BB86FC} .card{max-width:820px;margin:0 auto;background:#141518;border-radius:16px;padding:24px}
+    h1,h2{margin:0 0 12px} p,li{line-height:1.65}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Datenschutzerklärung</h1>
 
+    <h2>1. Verantwortlicher</h2>
+    <p>[Dein Name], [Anschrift], E-Mail: <a href="mailto:[deine@email.de]">[deine@email.de]</a></p>
+
+    <h2>2. Zweck der App</h2>
+    <p>Die App „Music Release Tracker“ zeigt neue Musikveröffentlichungen an und ermöglicht das Markieren von Favoriten.
+       Optional können Push-Benachrichtigungen zu Neuigkeiten empfangen werden.</p>
+
+    <h2>3. Verarbeitete Daten in der App</h2>
+    <ul>
+      <li><strong>Favoriten:</strong> lokal auf dem Gerät gespeichert (keine Serverübertragung).</li>
+      <li><strong>Netzwerkzugriffe:</strong> Abfragen der Spotify Web API (Künstler-, Albumdaten, Coverbilder).</li>
+      <li><strong>Bilder:</strong> Cover werden per URL geladen (Coil/HTTP), es werden keine Bilder dauerhaft serverseitig gespeichert.</li>
+    </ul>
+
+    <h2>4. Firebase Cloud Messaging (FCM)</h2>
+    <p>Für Push-Benachrichtigungen verwendet die App „Firebase Cloud Messaging“ (Google). Dabei wird ein Geräte-Token erzeugt.
+       Dieses Token kann genutzt werden, um Nachrichten gezielt an das Gerät zu senden. Das Token wird nur zur Zustellung von
+       Nachrichten verwendet. Die Nutzung von FCM unterliegt den Bedingungen von Google/Firebase.</p>
+    <p>Du kannst Pushs in den App-Einstellungen aktivieren/deaktivieren (Topic „news“). Bei Deaktivierung wird das Gerät aus dem
+       Topic abgemeldet.</p>
+
+    <h2>5. Rechtsgrundlage</h2>
+    <p>Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer funktionierenden App). Bei optionalen Pushs:
+       Einwilligung über die Systemberechtigung (Android 13+) und den App-Schalter (Widerruf jederzeit möglich).</p>
+
+    <h2>6. Empfänger / Drittlandtransfer</h2>
+    <p>Bei Nutzung von FCM und beim Laden von Inhalten (z. B. Coverbildern) können Anfragen an Server von Google/Firebase und Spotify gehen.
+       Dabei ist ein Transfer in Drittländer möglich. Es gelten die jeweiligen Datenschutzbedingungen der Anbieter.</p>
+
+    <h2>7. Speicherdauer</h2>
+    <p>Favoriten verbleiben lokal, bis sie gelöscht werden. FCM-Token werden von Firebase verwaltet und können sich ändern.</p>
+
+    <h2>8. Rechte der betroffenen Personen</h2>
+    <p>Du hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Widerspruch und Datenübertragbarkeit
+       im Rahmen der gesetzlichen Vorgaben. Kontakt: siehe Verantwortlicher.</p>
+
+    <h2>9. Kontakt</h2>
+    <p>Fragen zum Datenschutz? Schreib an: <a href="mailto:[deine@email.de]">[deine@email.de]</a>.</p>
+
+    <p><a href="index.html">Zur Übersicht</a></p>
+    <p><small>Hinweis: Diese Vorlage ist ein unverbindliches Muster und ersetzt keine Rechtsberatung.</small></p>
+  </div>
+</body>
+</html>
